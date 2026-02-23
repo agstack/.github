@@ -291,87 +291,23 @@
 
 > End-to-end traceability for agricultural commodities — blockchain-backed transparency from farm to fork, including EUDR compliance tools.
 
-<details>
-<summary><b><a href="https://github.com/agstack/inatrace-backend">inatrace-backend</a></b> — 🟡 Recent &nbsp; ⭐ 8 &nbsp; 🍴 6 &nbsp; 📝 Java</summary>
+<details open>
+<summary>🔷 <b><a href="https://github.com/agstack/inatrace">INATrace</a></b> — Blockchain-based track &amp; trace platform &nbsp; ⭐ 10 combined &nbsp; 🍴 16 combined &nbsp; 📝 Java · TypeScript · React Native · Hyperledger</summary>
 
-> *No description provided.*
+> Open-source blockchain-backed system that digitizes agricultural supply chains — connecting farmers, cooperatives, processors, and buyers with full transparency, quality assurance, and fair pricing. Funded by BMZ, implemented by GIZ.
 
-![Stars](https://img.shields.io/github/stars/agstack/inatrace-backend?style=flat-square) ![Forks](https://img.shields.io/github/forks/agstack/inatrace-backend?style=flat-square) ![Language](https://img.shields.io/github/languages/top/agstack/inatrace-backend?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/agstack/inatrace-backend?style=flat-square)
+**👉 [Full INATrace documentation & landing page →](https://github.com/agstack/inatrace)**
 
-| | |
-|---|---|
-| **Created** | 2020-11-20 |
-| **Last Push** | 2025-12-24 |
-| **Open Issues** | 4 |
-| **License** | MPL-2.0 |
+| Component | Repository | Stack | Stars | Last Push |
+|-----------|-----------|-------|-------|-----------|
+| ⚙️ Backend API | [inatrace-backend](https://github.com/agstack/inatrace-backend) | Java 17, Spring Boot, MySQL | ⭐ 8 | 2025-12-24 |
+| 🖥️ Web Frontend | [inatrace-frontend](https://github.com/agstack/inatrace-frontend) | Angular, TypeScript | ⭐ 1 | 2025-12-24 |
+| 📱 Mobile App | [inatrace-mobile](https://github.com/agstack/inatrace-mobile) | React Native, Expo | ⭐ 0 | 2025-12-24 |
+| ⛓️ Blockchain | [inatrace-coffee-network](https://github.com/agstack/inatrace-coffee-network) | Hyperledger Fabric | ⭐ 1 | 2025-11-20 |
 
+**License:** MPL-2.0 · **Top maintainers:** [@pece-a](https://github.com/pece-a) (1,492 commits), [@RebernikNejc](https://github.com/RebernikNejc) (301), [@borce-paspalovski](https://github.com/borce-paspalovski) (223)
 
-**Latest:** `2025-12-24` — Merge branch 'technical-documentation' into development
-
-**Top contributors:** [@pece-a](https://github.com/pece-a), [@RebernikNejc](https://github.com/RebernikNejc), [@MusicDin](https://github.com/MusicDin)
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/agstack/inatrace-frontend">inatrace-frontend</a></b> — 🟡 Recent &nbsp; ⭐ 1 &nbsp; 🍴 5 &nbsp; 📝 TypeScript</summary>
-
-> *No description provided.*
-
-![Stars](https://img.shields.io/github/stars/agstack/inatrace-frontend?style=flat-square) ![Forks](https://img.shields.io/github/forks/agstack/inatrace-frontend?style=flat-square) ![Language](https://img.shields.io/github/languages/top/agstack/inatrace-frontend?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/agstack/inatrace-frontend?style=flat-square)
-
-| | |
-|---|---|
-| **Created** | 2020-11-22 |
-| **Last Push** | 2025-12-24 |
-| **Open Issues** | 0 |
-| **License** | MPL-2.0 |
-
-
-**Latest:** `2025-12-24` — Updated README.md
-
-**Top contributors:** [@pece-a](https://github.com/pece-a), [@RebernikNejc](https://github.com/RebernikNejc), [@borce-paspalovski](https://github.com/borce-paspalovski)
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/agstack/inatrace-mobile">inatrace-mobile</a></b> — 🟡 Recent &nbsp; ⭐ 0 &nbsp; 🍴 2 &nbsp; 📝 TypeScript</summary>
-
-> *No description provided.*
-
-![Stars](https://img.shields.io/github/stars/agstack/inatrace-mobile?style=flat-square) ![Forks](https://img.shields.io/github/forks/agstack/inatrace-mobile?style=flat-square) ![Language](https://img.shields.io/github/languages/top/agstack/inatrace-mobile?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/agstack/inatrace-mobile?style=flat-square)
-
-| | |
-|---|---|
-| **Created** | 2024-12-12 |
-| **Last Push** | 2025-12-24 |
-| **Open Issues** | 0 |
-| **License** | MPL-2.0 |
-
-
-**Latest:** `2025-12-24` — Updated README.md
-
-**Top contributors:** [@pinokokol](https://github.com/pinokokol), [@pece-a](https://github.com/pece-a), [@MBJuric](https://github.com/MBJuric)
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/agstack/inatrace-coffee-network">inatrace-coffee-network</a></b> — 🟡 Recent &nbsp; ⭐ 1 &nbsp; 🍴 3 &nbsp; 📝 TypeScript</summary>
-
-> *No description provided.*
-
-![Stars](https://img.shields.io/github/stars/agstack/inatrace-coffee-network?style=flat-square) ![Forks](https://img.shields.io/github/forks/agstack/inatrace-coffee-network?style=flat-square) ![Language](https://img.shields.io/github/languages/top/agstack/inatrace-coffee-network?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/agstack/inatrace-coffee-network?style=flat-square)
-
-| | |
-|---|---|
-| **Created** | 2020-11-20 |
-| **Last Push** | 2025-11-20 |
-| **Open Issues** | 0 |
-| **License** | MPL-2.0 |
-
-
-**Latest:** `2025-11-20` — Update LICENSE
-
-**Top contributors:** [@MBJuric](https://github.com/MBJuric), [@pece-a](https://github.com/pece-a)
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-green?style=flat-square&logo=google-play)](https://play.google.com/store/apps/details?hl=en-US&id=com.sunesis.inatrace) [![App Store](https://img.shields.io/badge/App_Store-Download-blue?style=flat-square&logo=apple)](https://apps.apple.com/us/app/inatrace/id6572305162)
 
 </details>
 
@@ -1007,15 +943,12 @@ Repositories with commits in the last 90 days:
 | [palefire](https://github.com/agstack/palefire) | 2026-02-15 | Log LLM base URL for debugging | Python |
 | [OpenAgri-ReportingService](https://github.com/agstack/OpenAgri-ReportingService) | 2026-01-13 | Merge pull request #57 from JoleVLF/patch-1 | Python |
 | [user-registry](https://github.com/agstack/user-registry) | 2025-12-31 | code for backup by lucky | Python |
-| [inatrace-backend](https://github.com/agstack/inatrace-backend) | 2025-12-24 | Merge branch 'technical-documentation' into development | Java |
-| [inatrace-frontend](https://github.com/agstack/inatrace-frontend) | 2025-12-24 | Updated README.md | TypeScript |
-| [inatrace-mobile](https://github.com/agstack/inatrace-mobile) | 2025-12-24 | Updated README.md | TypeScript |
+| [**INATrace**](https://github.com/agstack/inatrace) | 2025-12-24 | Merge branch 'technical-documentation' into development | Java · TypeScript |
 | [asset-registry](https://github.com/agstack/asset-registry) | 2025-12-19 | proposal for v2.0 | Python |
 | [OpenAgri-Bootstrap-Deployment](https://github.com/agstack/OpenAgri-Bootstrap-Deployment) | 2025-12-01 | Merge pull request #75 from agstack/fix_ud_gk_url | Python |
 | [OpenAgri-GateKeeper](https://github.com/agstack/OpenAgri-GateKeeper) | 2025-11-27 | Merge pull request #31 from openagri-eu/main | CSS |
 | [OpenAgri-WeatherService](https://github.com/agstack/OpenAgri-WeatherService) | 2025-11-25 | Rename env var to use the same name as in Bootstrap env (#83 | Python |
 | [pancake](https://github.com/agstack/pancake) | 2025-11-22 | Security: Remove hardcoded OpenAI API key | Jupyter Notebook |
-| [inatrace-coffee-network](https://github.com/agstack/inatrace-coffee-network) | 2025-11-20 | Update LICENSE | TypeScript |
 | [OpenAgri-FarmCalendar](https://github.com/agstack/OpenAgri-FarmCalendar) | 2025-11-19 | Merge pull request #123 from wang701/add-info-readme-localad | Python |
 
 
@@ -1046,12 +979,14 @@ New to AgStack? Here's how to dive in:
     ┌─────────┴──────────┐    ┌────────────┴───────────┐   ┌───────────┴──────────┐
     │   OpenAgri Suite    │    │  Traceability & Chain   │   │  Weather & Climate   │
     │                     │    │                         │   │                      │
-    │ • Farm Calendar     │    │ • INATrace (backend,    │   │ • Weather Server     │
-    │ • Weather Service   │    │   frontend, mobile)     │   │ • Weather Forecast   │
-    │ • Irrigation Mgmt   │    │ • TraceFoodChain        │   │ • Pest Models        │
-    │ • Pest & Disease    │    │ • TerraTrac (EUDR)      │   │                      │
-    │ • Reporting         │    │                         │   │                      │
-    │ • User Dashboard    │    └─────────────────────────┘   └──────────────────────┘
+    │ • Farm Calendar     │    │ • INATrace (meta repo)  │   │ • Weather Server     │
+    │ • Weather Service   │    │   ├ backend (Java)      │   │ • Weather Forecast   │
+    │ • Irrigation Mgmt   │    │   ├ frontend (Angular)  │   │ • Pest Models        │
+    │ • Pest & Disease    │    │   ├ mobile (React)      │   │                      │
+    │ • Reporting         │    │   └ blockchain (Fabric)  │   │                      │
+    │ • User Dashboard    │    │ • TraceFoodChain        │   │                      │
+    │                     │    │ • TerraTrac (EUDR)      │   │                      │
+    │                     │    └─────────────────────────┘   └──────────────────────┘
     │ • GateKeeper (Auth) │
     │ • OCSM (Semantics)  │     ┌───────────────────────┐   ┌──────────────────────┐
     └─────────────────────┘     │  Geospatial & Land    │   │  AI & Data Science   │
