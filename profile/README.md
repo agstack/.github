@@ -9,7 +9,7 @@
 [![Website](https://img.shields.io/badge/Website-agstack.org-2ea44f?style=for-the-badge)](https://agstack.org)
 [![Landscape](https://img.shields.io/badge/Landscape-l.agstack.org-blue?style=for-the-badge)](https://l.agstack.org)
 [![License](https://img.shields.io/badge/License-Apache_2.0-orange?style=for-the-badge)](#license)
-[![Repos](https://img.shields.io/badge/Repositories-42-purple?style=for-the-badge)](#-project-catalog)
+[![Repos](https://img.shields.io/badge/Repositories-46-purple?style=for-the-badge)](#-project-catalog)
 
 *A Linux Foundation project -- the global open-source community building, maintaining, and evolving the digital infrastructure for agriculture and food.*
 
@@ -21,10 +21,10 @@
 
 | Metric | Value |
 |--------|-------|
-| **Repositories** | 42 |
-| **Combined Stars** | 170 |
-| **Combined Forks** | 73 |
-| **Active Repos** (updated in last 6 months) | 21 |
+| **Repositories** | 46 |
+| **Combined Stars** | 170+ |
+| **Combined Forks** | 73+ |
+| **Active Repos** (pushed in last 6 months) | 21+ |
 | **Languages** | Python, TypeScript, Jupyter Notebook, JavaScript, Java, Julia, Dart, Kotlin, CSS, SCSS |
 
 ---
