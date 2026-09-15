@@ -1,0 +1,35 @@
+name: Keep the org profile current
+
+# The landing page's counts, dates and stars are generated from the live
+# organisation by scripts/update-profile.py. This regenerates it weekly and
+# commits when anything changed, and fails loudly when a new public repository
+# has not been placed in a section of the catalogue (the script refuses to
+# guess where it belongs; edit SECTIONS in the script).
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regenerate profile/README.md from the live org
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update-profile.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "profile is current"; exit 0
+          fi
+          git config user.name "agstack-bot"
+          git config user.email "agstack-bot@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "profile: regenerate catalogue from the live organisation ($(date -u +%F))"
+          git push

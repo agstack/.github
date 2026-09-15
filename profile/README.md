@@ -9,7 +9,7 @@
 [![Website](https://img.shields.io/badge/Website-agstack.org-2ea44f?style=for-the-badge)](https://agstack.org)
 [![Landscape](https://img.shields.io/badge/Landscape-l.agstack.org-blue?style=for-the-badge)](https://l.agstack.org)
 [![License](https://img.shields.io/badge/License-Apache_2.0-orange?style=for-the-badge)](#license)
-[![Repos](https://img.shields.io/badge/Repositories-46-purple?style=for-the-badge)](#-project-catalog)
+[![Repos](https://img.shields.io/badge/Repositories-42-purple?style=for-the-badge)](#project-catalog)
 
 *A Linux Foundation project -- the global open-source community building, maintaining, and evolving the digital infrastructure for agriculture and food.*
 
@@ -21,17 +21,17 @@
 
 | Metric | Value |
 |--------|-------|
-| **Repositories** | 46 |
-| **Combined Stars** | 170+ |
-| **Combined Forks** | 73+ |
-| **Active Repos** (pushed in last 6 months) | 21+ |
-| **Languages** | Python, TypeScript, Jupyter Notebook, JavaScript, Java, Julia, Dart, Kotlin, CSS, SCSS |
+| **Repositories** | 42 |
+| **Combined Stars** | 196 |
+| **Combined Forks** | 90 |
+| **Active Repos** (pushed in last 6 months) | 12 |
+| **Languages** | Python, TypeScript, Jupyter Notebook, JavaScript, Kotlin, SCSS, Java, Dart, Julia |
 
 ---
 
 ## Project Catalog
 
-Every repository in the AgStack ecosystem, organized by domain. Click any project name to visit the repo.
+Every public repository in the AgStack organisation, organized by domain. Click any project name to visit the repo.
 
 ---
 
@@ -41,12 +41,11 @@ Every repository in the AgStack ecosystem, organized by domain. Click any projec
 
 | Repo | Description | Lang | Last Push | Stars |
 |------|-------------|------|-----------|-------|
-| [**ar1.5-node**](https://github.com/agstack/ar1.5-node) | Next-gen Asset Registry node -- S2 compact cover identity, W3C VCs, EU Data Spaces, OGC/STAC, integrated user registry, two-level masking | Design | 2026-03-02 | 0 |
-| [**asset-registry**](https://github.com/agstack/asset-registry) | AR 1.0 -- current production. Flask-based GeoID registration and resolution | Python | 2025-12-19 | 10 |
-| [**user-registry**](https://github.com/agstack/user-registry) | User accounts, JWT issuance, API keys for AR 1.0 (integrated into AR 1.5) | Python | 2025-12-31 | 2 |
-| [**asset-registry-fe**](https://github.com/agstack/asset-registry-fe) | Frontend web application for the Asset Registry | TypeScript | 2024-05-09 | 1 |
+| [**asset-registry**](https://github.com/agstack/asset-registry) | AR 1.0 -- current production. Flask-based GeoID registration and resolution | Python | 2026-05-15 | 10 |
+| [**user-registry**](https://github.com/agstack/user-registry) | User accounts, JWT issuance, API keys for AR 1.0 | Python | 2025-12-31 | 2 |
+| [**asset-registry-fe**](https://github.com/agstack/asset-registry-fe) | Frontend web application for the Asset Registry | TypeScript | 2024-05-09 | 0 |
 | [**autogeobound**](https://github.com/agstack/autogeobound) | Automatic field boundary detection from satellite imagery | Jupyter | 2025-02-20 | 7 |
-| [**pancake**](https://github.com/agstack/pancake) | Geospatial datastore and collaboration engine | Jupyter | 2025-11-22 | 6 |
+| [**pancake**](https://github.com/agstack/pancake) | AI-native geospatial datastore and DPI services: field-ownership grants as SD-JWT credentials with revocation and a signed audit ledger, scheduled vendor-data ingestion, content-addressed BITE store queryable by GeoID | Jupyter | 2026-09-15 | 7 |
 
 ---
 
@@ -56,8 +55,8 @@ Every repository in the AgStack ecosystem, organized by domain. Click any projec
 
 | Repo | Description | Lang | Last Push | Stars |
 |------|-------------|------|-----------|-------|
-| [**inatrace**](https://github.com/agstack/inatrace) | Meta repo -- links backend, frontend, mobile, and blockchain components | Docs | 2026-02-23 | 0 |
-| [**inatrace-backend**](https://github.com/agstack/inatrace-backend) | Java/Spring backend for INATrace | Java | 2025-12-24 | 8 |
+| [**inatrace**](https://github.com/agstack/inatrace) | Meta repo -- links backend, frontend, mobile, and blockchain components | -- | 2026-02-23 | 1 |
+| [**inatrace-backend**](https://github.com/agstack/inatrace-backend) | Java/Spring backend for INATrace | Java | 2026-09-11 | 10 |
 | [**inatrace-frontend**](https://github.com/agstack/inatrace-frontend) | Angular frontend for INATrace | TypeScript | 2025-12-24 | 1 |
 | [**inatrace-mobile**](https://github.com/agstack/inatrace-mobile) | Mobile app for farmer data collection | TypeScript | 2025-12-24 | 0 |
 | [**inatrace-coffee-network**](https://github.com/agstack/inatrace-coffee-network) | Blockchain smart contracts for coffee supply chain | TypeScript | 2025-11-20 | 1 |
@@ -70,7 +69,7 @@ Every repository in the AgStack ecosystem, organized by domain. Click any projec
 
 | Repo | Description | Lang | Last Push | Stars |
 |------|-------------|------|-----------|-------|
-| [**tracefoodchain**](https://github.com/agstack/tracefoodchain) | Flutter app/webapp for food chain traceability | Dart | 2026-03-02 | 3 |
+| [**tracefoodchain**](https://github.com/agstack/tracefoodchain) | Flutter app/webapp for food chain traceability | Dart | 2026-09-04 | 4 |
 
 ---
 
@@ -80,15 +79,25 @@ Every repository in the AgStack ecosystem, organized by domain. Click any projec
 
 | Repo | Description | Lang | Last Push | Stars |
 |------|-------------|------|-----------|-------|
-| [**OpenAgri-Bootstrap-Deployment**](https://github.com/agstack/OpenAgri-Bootstrap-Deployment) | Modular configuration and deployment of all OpenAgri services | Python | 2026-03-02 | 7 |
-| [**OpenAgri-GateKeeper**](https://github.com/agstack/OpenAgri-GateKeeper) | JWT-based authentication and access proxy | CSS | 2025-11-27 | 7 |
-| [**OpenAgri-FarmCalendar**](https://github.com/agstack/OpenAgri-FarmCalendar) | Digital farm calendar -- operations, observations, parcels, assets | Python | 2025-11-19 | 10 |
-| [**OpenAgri-WeatherService**](https://github.com/agstack/OpenAgri-WeatherService) | Weather forecasts and critical agricultural indicators | Python | 2025-11-25 | 17 |
-| [**OpenAgri-IrrigationManagement**](https://github.com/agstack/OpenAgri-IrrigationManagement) | Evapotranspiration calculations and soil moisture analysis | Python | 2026-02-20 | 8 |
-| [**OpenAgri-PestAndDiseaseManagement**](https://github.com/agstack/OpenAgri-PestAndDiseaseManagement) | Pest and disease monitoring and management | Python | 2025-10-16 | 9 |
-| [**OpenAgri-ReportingService**](https://github.com/agstack/OpenAgri-ReportingService) | PDF report generation for agricultural data visualization | Python | 2026-01-13 | 7 |
+| [**OpenAgri-Bootstrap-Deployment**](https://github.com/agstack/OpenAgri-Bootstrap-Deployment) | Modular configuration and deployment of all OpenAgri services | Python | 2026-06-09 | 7 |
+| [**OpenAgri-GateKeeper**](https://github.com/agstack/OpenAgri-GateKeeper) | JWT-based authentication and access proxy | Python | 2026-04-22 | 8 |
+| [**OpenAgri-FarmCalendar**](https://github.com/agstack/OpenAgri-FarmCalendar) | Digital farm calendar -- operations, observations, parcels, assets | Python | 2026-05-08 | 12 |
+| [**OpenAgri-WeatherService**](https://github.com/agstack/OpenAgri-WeatherService) | Weather forecasts and critical agricultural indicators | Python | 2026-08-06 | 23 |
+| [**OpenAgri-IrrigationManagement**](https://github.com/agstack/OpenAgri-IrrigationManagement) | Evapotranspiration calculations and soil moisture analysis | Python | 2026-04-23 | 10 |
+| [**OpenAgri-PestAndDiseaseManagement**](https://github.com/agstack/OpenAgri-PestAndDiseaseManagement) | Pest and disease monitoring and management | Python | 2025-10-16 | 10 |
+| [**OpenAgri-ReportingService**](https://github.com/agstack/OpenAgri-ReportingService) | PDF report generation for agricultural data visualization | Python | 2026-04-27 | 8 |
 | [**OpenAgri-UserDashboard**](https://github.com/agstack/OpenAgri-UserDashboard) | Web UI exposing all OpenAgri service functionality | TypeScript | 2025-10-10 | 5 |
 | [**OpenAgri-OCSM**](https://github.com/agstack/OpenAgri-OCSM) | OpenAgri Common Semantic Model | Jupyter | 2025-10-07 | 7 |
+
+---
+
+### AgriOS -- Farm Management ERP
+
+> Farm management on Odoo 18: farmers and farmer groups, plots, trade, and training, as installable addons. AGPL-3, contributed by Advance Insight.
+
+| Repo | Description | Lang | Last Push | Stars |
+|------|-------------|------|-----------|-------|
+| [**AgriOS**](https://github.com/agstack/AgriOS) | Odoo 18 addons -- `agrios_farmer`, `agrios_plot`, `agrios_trade`, `agrios_training`, theme and demo data (branch `18.0`) | Python | 2026-03-02 | 1 |
 
 ---
 
@@ -98,7 +107,7 @@ Every repository in the AgStack ecosystem, organized by domain. Click any projec
 
 | Repo | Description | Lang | Last Push | Stars |
 |------|-------------|------|-----------|-------|
-| [**TerraTrac-field-app**](https://github.com/agstack/TerraTrac-field-app) | Mobile app for recording plot geolocations (point and polygon), offline-capable, CSV/GeoJSON export | Kotlin | 2025-10-24 | 0 |
+| [**TerraTrac-field-app**](https://github.com/agstack/TerraTrac-field-app) | Mobile app for recording plot geolocations (point and polygon), offline-capable, CSV/GeoJSON export | Kotlin | 2025-10-24 | 1 |
 | [**TerraTrac-validator-portal**](https://github.com/agstack/TerraTrac-validator-portal) | Upload plot data, run deforestation risk assessment via WHisp API, generate reports | SCSS | 2025-06-17 | 0 |
 
 ---
@@ -109,23 +118,23 @@ Every repository in the AgStack ecosystem, organized by domain. Click any projec
 
 | Repo | Description | Lang | Last Push | Stars |
 |------|-------------|------|-----------|-------|
-| [**palefire**](https://github.com/agstack/palefire) | Pale Fire -- LLM + knowledge graph integration framework | Python | 2026-03-02 | 1 |
+| [**palefire**](https://github.com/agstack/palefire) | Pale Fire -- LLM + knowledge graph integration framework | Python | 2026-09-01 | 6 |
 | [**arias**](https://github.com/agstack/arias) | AI for agriculture | -- | 2025-09-18 | 0 |
 | [**ag-rec**](https://github.com/agstack/ag-rec) | Open-source agriculture recommendations from Cooperative Extension Services | JavaScript | 2022-01-08 | 12 |
 
 ---
 
-### Weather and Climate
+### Weather, Climate, and Pests
 
-> Weather data infrastructure -- from data ingest and pre-processing to forecasting and serving.
+> Weather data infrastructure -- from data ingest and pre-processing to forecasting and serving -- and the weather-driven pest and disease models built on it.
 
 | Repo | Description | Lang | Last Push | Stars |
 |------|-------------|------|-----------|-------|
 | [**weather-server**](https://github.com/agstack/weather-server) | Weather data ingest, pre-processing, and serving pipeline | Julia | 2021-12-16 | 21 |
 | [**weather-forecast**](https://github.com/agstack/weather-forecast) | Global weather forecast using NOAA NCEP/NOMADS data | Python | 2023-04-02 | 3 |
-| [**pest-models**](https://github.com/agstack/pest-models) | Weather-driven pest models | Python | 2021-10-15 | 2 |
-| [**opensource-pestmodels**](https://github.com/agstack/opensource-pestmodels) | Open-source weather models using the Agralogics Weather Server | Python | 2021-10-01 | 0 |
-| [**field-carbon-model**](https://github.com/agstack/field-carbon-model) | Field-specific carbon model leveraging SMAP L4C | Python | 2024-03-13 | 3 |
+| [**opensource-pestmodels**](https://github.com/agstack/opensource-pestmodels) | Hierarchical pest and disease modelling framework -- 13 models, 19 crops, 54 threats; Python wheel, FastAPI and MCP server | Python | 2026-08-31 | 1 |
+| [**pest-models**](https://github.com/agstack/pest-models) | Weather-driven pest models (earlier work) | Python | 2021-10-15 | 2 |
+| [**field-carbon-model**](https://github.com/agstack/field-carbon-model) | Field-specific carbon model leveraging SMAP L4C | Python | 2024-03-13 | 4 |
 
 ---
 
@@ -163,6 +172,10 @@ Every repository in the AgStack ecosystem, organized by domain. Click any projec
 
 **Trace a supply chain:** Deploy [INATrace](https://github.com/agstack/inatrace) for blockchain-based farm-to-consumer traceability.
 
+**Run a farm:** Install the [AgriOS](https://github.com/agstack/AgriOS) addons on Odoo 18 for farmer, plot, trade and training management.
+
+**Model a pest:** [opensource-pestmodels](https://github.com/agstack/opensource-pestmodels) serves 13 weather-driven pest and disease models over FastAPI and MCP.
+
 **Build with AI:** Use [Palefire](https://github.com/agstack/palefire) to integrate LLMs with agricultural knowledge graphs.
 
 ---
@@ -179,12 +192,14 @@ AgStack is open to contributors of all levels. Every repo has its own issues lis
 
 ## License
 
-Most AgStack projects are licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) or [EUPL 1.2](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12). See each repository for its specific license.
+Most AgStack projects are licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) or [EUPL 1.2](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12); others use MIT, MPL 2.0, CC BY 4.0, GPL 3.0. 10 repositories declare no license file yet. See each repository for its specific license.
 
 ---
 
 <div align="center">
 
 *AgStack is a [Linux Foundation](https://www.linuxfoundation.org/) project.*
+
+<sub>Catalog generated from the live organisation on 2026-09-15 by <code>scripts/update-profile.py</code>.</sub>
 
 </div>
