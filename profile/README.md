@@ -22,8 +22,8 @@
 | Metric | Value |
 |--------|-------|
 | **Repositories** | 42 |
-| **Combined Stars** | 196 |
-| **Combined Forks** | 90 |
+| **Combined Stars** | 197 |
+| **Combined Forks** | 93 |
 | **Active Repos** (pushed in last 6 months) | 12 |
 | **Languages** | Python, TypeScript, Jupyter Notebook, JavaScript, Kotlin, SCSS, Java, Dart, Julia |
 
@@ -45,7 +45,7 @@ Every public repository in the AgStack organisation, organized by domain. Click 
 | [**user-registry**](https://github.com/agstack/user-registry) | User accounts, JWT issuance, API keys for AR 1.0 | Python | 2025-12-31 | 2 |
 | [**asset-registry-fe**](https://github.com/agstack/asset-registry-fe) | Frontend web application for the Asset Registry | TypeScript | 2024-05-09 | 0 |
 | [**autogeobound**](https://github.com/agstack/autogeobound) | Automatic field boundary detection from satellite imagery | Jupyter | 2025-02-20 | 7 |
-| [**pancake**](https://github.com/agstack/pancake) | AI-native geospatial datastore and DPI services: field-ownership grants as SD-JWT credentials with revocation and a signed audit ledger, scheduled vendor-data ingestion, content-addressed BITE store queryable by GeoID | Jupyter | 2026-09-15 | 7 |
+| [**pancake**](https://github.com/agstack/pancake) | AI-native geospatial datastore and DPI services: field-ownership grants as SD-JWT credentials with revocation and a signed audit ledger, scheduled vendor-data ingestion, content-addressed BITE store queryable by GeoID | Jupyter | 2026-09-18 | 7 |
 
 ---
 
@@ -56,7 +56,7 @@ Every public repository in the AgStack organisation, organized by domain. Click 
 | Repo | Description | Lang | Last Push | Stars |
 |------|-------------|------|-----------|-------|
 | [**inatrace**](https://github.com/agstack/inatrace) | Meta repo -- links backend, frontend, mobile, and blockchain components | -- | 2026-02-23 | 1 |
-| [**inatrace-backend**](https://github.com/agstack/inatrace-backend) | Java/Spring backend for INATrace | Java | 2026-09-11 | 10 |
+| [**inatrace-backend**](https://github.com/agstack/inatrace-backend) | Java/Spring backend for INATrace | Java | 2026-09-18 | 11 |
 | [**inatrace-frontend**](https://github.com/agstack/inatrace-frontend) | Angular frontend for INATrace | TypeScript | 2025-12-24 | 1 |
 | [**inatrace-mobile**](https://github.com/agstack/inatrace-mobile) | Mobile app for farmer data collection | TypeScript | 2025-12-24 | 0 |
 | [**inatrace-coffee-network**](https://github.com/agstack/inatrace-coffee-network) | Blockchain smart contracts for coffee supply chain | TypeScript | 2025-11-20 | 1 |
@@ -200,6 +200,6 @@ Most AgStack projects are licensed under [Apache 2.0](https://www.apache.org/lic
 
 *AgStack is a [Linux Foundation](https://www.linuxfoundation.org/) project.*
 
-<sub>Catalog generated from the live organisation on 2026-09-15 by <code>scripts/update-profile.py</code>.</sub>
+<sub>Catalog generated from the live organisation on 2026-09-21 by <code>scripts/update-profile.py</code>.</sub>
 
 </div>
